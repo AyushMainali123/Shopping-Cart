@@ -72,7 +72,7 @@ nav .logo {
 .hero {
   text-align: center;
   height: calc(100vh - 60px);
-  background: url(./images/images/product-1.jpeg);
+  background: url(./hero-bcg.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
