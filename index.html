@@ -1,61 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script src="https://kit.fontawesome.com/d9a3d904c6.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
-</head>
-<body>
-  
-  <!-- Header section starts -->
-  <header>
-    <nav>
-      <div class="logo">
-        <span>NAV</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/d9a3d904c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping Cart</title>
+  </head>
+  <body>
+    <!-- Header section starts -->
+    <header>
+      <nav>
+        <div class="logo">
+          <span>NAV</span>
+        </div>
+        <div class="cart">
+          <i class="fas fa-cart-plus"></i>
+          <span class="total"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section Starts -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to my shopping cart</h1>
+        <a href="#">Learn More...</a>
       </div>
-      <div class="cart">
-        <i class="fas fa-cart-plus"></i>
-        <span class="total"></span>
+    </section>
+
+    <section class="items">
+      <div class="item-container">
+        <!-- Item starts -->
+
+        <!-- Item ends -->
       </div>
-    </nav>
-  </header>
+    </section>
+    <div class="overlay"></div>
 
-  <!-- Hero Section Starts -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to my shopping cart</h1>
-      <a href="#">Learn More...</a>
-    </div>
-  </section>
+    <section class="cart-container">
+      <div class="close-btn">
+        <i class="fas fa-window-close"></i>
+      </div>
+      <div class="cart-items"></div>
 
-  <section class="items">
-    <div class="item-container">
-      
-      <!-- Item starts -->
-
-      <!-- Item ends -->
-      
-    </div>
-  </section>
-  <div class="overlay"></div>
-
-  <section class="cart-container">
-    <div class="close-btn">
-      <i class="fas fa-window-close"></i>
-    </div>
-    <div class="cart-items">
-      
-    </div>
-
-    <div class="footer">
-      <h4 class="total-amount">$0</h4>
-      <button class = "clear-cart">Clear Cart</button>
-    </div>
-
-  </section>
-  <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
-  <script src="mainjs.js"></script>
-</body>
+      <div class="footer">
+        <h4 class="total-amount">$0</h4>
+        <button class="clear-cart">Clear Cart</button>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script src="mainjs.js"></script>
+  </body>
 </html>
